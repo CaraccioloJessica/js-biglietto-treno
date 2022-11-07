@@ -10,7 +10,10 @@ body{
 }
 
 h1{
-  color: #667B68;
+  color: #FCEFE9;
   text-align: center;
-  padding: 200px 100px 0;
+  margin: 230px 100px 0;
+  background-color: #A3B899;
+  padding: 20px;
+  border-radius: 20px;
 }
