@@ -9,6 +9,23 @@ body{
   background-color: #DDE6D5;
 }
 
+#logobar{
+  width: 100%;
+  height: 70px;
+  background-color: #A3B899;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#logo{
+  color: #FCEFE9;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2;
+  margin-left: 50px;
+}
+
 h1{
   color: #FCEFE9;
   text-align: center;
