@@ -22,7 +22,7 @@ if (eta < 18){
 
   console.log("sconto euro", sconto)
 
-  document.getElementById("title").innerHTML = `Hai ${eta} anni, devi percorrere ${distanza} km ed hai diritto ad uno sconto del 20%. Il prezzo finale del tuo biglietto è di ${prezzoScontato.toFixed(2)} euro.` 
+  document.getElementById("title").innerHTML = `Hai ${eta} anni, devi percorrere ${distanza} km e hai diritto ad uno sconto del 20%. Il prezzo finale del tuo biglietto è di ${prezzoScontato.toFixed(2)} euro.` 
 }
 
 // SCONTO 40% OVER 65
@@ -32,7 +32,7 @@ else if (eta >= 65){
 
   console.log("sconto euro", sconto)
   
-  document.getElementById("title").innerHTML = `Hai ${eta} anni, devi percorrere ${distanza} km ed hai diritto ad uno sconto del 40%. Il prezzo finale del tuo biglietto è di ${prezzoScontato.toFixed(2)} euro.` 
+  document.getElementById("title").innerHTML = `Hai ${eta} anni, devi percorrere ${distanza} km e hai diritto ad uno sconto del 40%. Il prezzo finale del tuo biglietto è di ${prezzoScontato.toFixed(2)} euro.` 
 }
 
 else {
