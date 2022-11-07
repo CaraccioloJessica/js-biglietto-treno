@@ -15,14 +15,16 @@ let prezzo = distanza * 0.21
 
 console.log("euro", prezzo);
 
-  // SCONTO 20% MINORENNI
+if (eta < 18){  // SCONTO 20% MINORENNI
+  let sconto = (prezzo * 20) / 100;
 
-  // SCONTO 40% OVER 65
+  console.log("sconto euro", sconto)
+}
 
+else if (eta >= 65){  // SCONTO 40% OVER 65
+  let sconto = (prezzo * 40) / 100;
 
-// CALCOLARE PREZZO TOTALE DEL VIAGGIO
-  // CON 20%
+  console.log("sconto euro", sconto)
+}
 
-  // CON 40%
-
-  // SENZA SCONTI
+// OUTPUT
